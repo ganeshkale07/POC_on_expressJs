@@ -15,6 +15,7 @@ console.log(app)
 // app.use('/users',users);
 
 app.set('view engine', 'ejs');
+//Line from demo 1 branch
 
 app.get('/', (req,res) => {
     res.render('index',{
